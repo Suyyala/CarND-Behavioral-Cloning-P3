@@ -13,12 +13,12 @@ The goals / steps of this project are the following:
 [image1]: ./examples/placeholder.png "Model Visualization"
 [image2]: ./examples/center-driving.png "Grayscaling"
 [image3]: ./examples/recovery2.png "Recovery Image1"
-[image4]: ./examples/recovery3.png "Recovery Image2"
-[image5]: ./examples/recovery4.png "Recovery Image3"
+[image4]: ./examples/recovery4.png "Recovery Image2"
+[image5]: ./examples/recovery3.png "Recovery Image3"
 [image6]: ./examples/test_just_crop.jpg "Normal Image"
 [image7]: ./examples/test_just_crop_flip.jpg "Flipped Image"
-[image8]: ./examples/model-train1.jpg "Flipped Image"
-[image9]: ./examples/conv-cnn-arch.jpg "Flipped Image"
+[image8]: ./examples/model-train1.png "Flipped Image"
+[image9]: ./examples/conv-cnn-arch.png "Flipped Image"
 
 
 ###Files Submitted & Code Quality
@@ -112,6 +112,7 @@ Then I repeated this process on track two in order to get more data points.
 To augment the data set, I also flipped images with negative steering angle to increase the data set different angle. For example, here is an image that has then been flipped:
 
 ![alt text][image6]
+
 ![alt text][image7]
 
 After the collection process, I had 33,666 number of data points. I then preprocessed this data by cropping the height of each image by half to remove scene data and augmented driving data with flipped image to provide more trainign data. With each batch_set size to 32, I have set to 3 epochs, each model generation took about 30 minutes. I have re-run each such step my many times by tweaking various hyper parameters

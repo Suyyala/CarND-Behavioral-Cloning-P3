@@ -18,7 +18,8 @@ The goals / steps of this project are the following:
 [image6]: ./examples/test_just_crop.jpg "Normal Image"
 [image7]: ./examples/test_just_crop_flip.jpg "Flipped Image"
 [image8]: ./examples/model-train1.png "Flipped Image"
-[image9]: ./examples/conv-cnn-arch.png "Flipped Image"
+[image9]: ./examples/conv-cnn-arch.png "CNN Image"
+[image10]: ./examples/run4.png "Results Image"
 
 
 ###Files Submitted & Code Quality
@@ -90,6 +91,7 @@ At the end of the process, the vehicle is able to drive autonomously around the 
 ####2. Final Model Architecture
 
 The final model architecture (model.py lines 31-47) consisted of a convolution neural network with the following layers and layer sizes.
+![alt text][image9]
 
 Here is a visualization of the architecture (note: visualizing the architecture is optional according to the project rubric)
 
@@ -126,7 +128,6 @@ Following are my traning results and car was able to drive autonomous without dr
 
 Also, created video recording of car's autonomous mode driving.
 
-![alt text][image9]
 
 
 

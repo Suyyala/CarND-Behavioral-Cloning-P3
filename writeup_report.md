@@ -12,7 +12,7 @@ The goals / steps of this project are the following:
 
 [image1]: ./examples/placeholder.png "Model Visualization"
 [image2]: ./examples/center-driving.png "Grayscaling"
-[image3]: ./examples/recovery2.png "Recovery Image1"
+[image3]: ./examples/recovery2.png "Off Track"
 [image4]: ./examples/recovery4.png "Recovery Image2"
 [image5]: ./examples/recovery3.png "Recovery Image3"
 [image6]: ./examples/test_just_crop.jpg "Normal Image"

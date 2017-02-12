@@ -18,7 +18,7 @@ The goals / steps of this project are the following:
 [image6]: ./examples/test_just_crop.jpg "Normal Image"
 [image7]: ./examples/test_just_crop_flip.jpg "Flipped Image"
 [image8]: ./examples/model-train1.jpg "Flipped Image"
-[image8]: ./examples/conv-cnn-arch.jpg "Flipped Image"
+[image9]: ./examples/conv-cnn-arch.jpg "Flipped Image"
 
 
 ###Files Submitted & Code Quality

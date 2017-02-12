@@ -104,15 +104,13 @@ To capture good driving behavior, I first recorded two laps on track one using c
 I then recorded the vehicle recovering road side or off-track to center so that the vehicle would learn to handle the situtations when going of the track. These images show what a recovery looks like:
 
 ![alt text][image3]
-![alt text][image4]
 ![alt text][image5]
 
 Then I repeated this process on track two in order to get more data points.
 
 To augment the data set, I also flipped images with negative steering angle to increase the data set different angle. For example, here is an image that has then been flipped:
 
-![alt text][image6]
-
+![alt text][image6] 
 ![alt text][image7]
 
 After the collection process, I had 33,666 number of data points. I then preprocessed this data by cropping the height of each image by half to remove scene data and augmented driving data with flipped image to provide more trainign data. With each batch_set size to 32, I have set to 3 epochs, each model generation took about 30 minutes. I have re-run each such step my many times by tweaking various hyper parameters

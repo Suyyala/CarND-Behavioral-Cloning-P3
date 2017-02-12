@@ -94,10 +94,6 @@ The final model architecture (model.py lines 31-47) consisted of a convolution n
 
 ![alt text][image9]
 
-Here is a visualization of the architecture (note: visualizing the architecture is optional according to the project rubric)
-
-![alt text][image1]
-
 ####3. Creation of the Training Set & Training Process
 
 To capture good driving behavior, I first recorded two laps on track one using center lane driving. Also, in-order to flgiht off left biased steering angle trained data in the simulator, i have re-corded another lap in the opposite direction of driving. Here is an example image of center lane driving:
